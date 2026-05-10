@@ -1,0 +1,225 @@
+/*seccion1 Vilma Cupara Soliz*/
+:root{
+    --color-principal:#96bb7c;
+    --espacio-h1:2rem;
+    --espacio-largo:15rem;
+    --espacio-login:1rem;
+    --espacio-join:6rem;
+}
+*{
+    margin: 1rem;
+    padding: 0px;
+}
+.vi-principal{
+    background-color: #DDF4FF;
+
+
+} 
+.cabeza{
+    display: flex;
+    margin:20px auto;
+}
+.titulo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4.5rem;
+    margin-top: 25px;
+    margin-right: var(--espacio-h1);
+}
+.largo {
+    font-size: 8px;
+    border:2px solid transparent;
+    margin-right: var(--espacio-largo);
+    color: rgb(10, 9, 9);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    
+
+}
+.login {
+
+    margin-right: var(--espacio-login);
+    color:var(--color-principal);
+    font-size: 10px;
+    background-color: transparent;
+
+}
+.join {
+    margin-right: var(--espacio-join);
+    background-color: var(--color-principal);
+    color: white;
+    font-size: 11px;
+    padding: 1px 15px ;
+    text-align: auto;
+    
+}
+button{
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+/*seccion2 Vilma Cupara Soliz*/
+.vi-columnas{
+    margin: 2.5rem;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 5.4rem;
+    padding: 10px;
+    text-align: left;
+}
+.vi-colum1{
+    p{
+        color: var(--color-principal);
+        text-align:initial;
+        margin-left: 2.5rem auto;
+    }
+    h1{
+        font-family:Arial, Helvetica, sans-serif;
+        text-align:initial;
+        margin-left: 2.5rem auto;
+    }
+    p2{
+        color: rgb(38, 37, 37);
+        text-align: left;
+        margin: 3.5rem auto;
+
+    }
+}
+.ancho{
+    width: 100%;
+    height: auto;
+    margin-top: -40px;
+}
+.vi-boton{
+    margin-left: 2.5rem ;
+    text-align: left;
+    border-radius: 4px;
+    display: flex;
+}
+.boton2 {
+    padding: 5px 25px;
+    border:1px solid var(--color-principal) ;
+}
+.boton2:hover {
+    background-color: var(--color-principal);
+}
+.boton1{
+    margin-left: -2.8rem;
+    padding: 5px 15px;
+    background-color: var(--color-principal);
+}
+/*seccion3 Silvia Rosa Alvarado*/
+.SRA_seccion3{
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #FFFFFF;
+        }
+
+        .stats-wrapper {
+            padding: 80px 0;
+        }
+
+        .stats-container {
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .stats-grid {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .stat-item {
+            text-align: center;
+            flex: 1;
+        }
+
+        .stat-number {
+            color: #A9D162;
+            font-size: 58px;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            color: #252B42;
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        /* Solo reducir tamaño en móvil, pero mantener horizontal */
+        @media (max-width: 768px) {
+            .stats-wrapper {
+                padding: 60px 0;
+            }
+            .stat-number {
+                font-size: 32px;
+            }
+            .stat-label {
+                font-size: 10px;
+            }
+            .stats-grid {
+                gap: 5px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .stat-number {
+                font-size: 26px;
+            }
+            .stat-label {
+                font-size: 9px;
+            }
+        }
+/*seccion4 Silvia Rosa Alavarado*/
+.SRA-seccion4{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff;
+        }
+
+        .SRA-seccion4 {
+            border-top: 1px solid #E9E9E9;
+            padding: 45px 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .SRA-seccion4 .columna {
+            width: 19%;
+        }
+        
+        .SRA-seccion4 h3 {
+            font-size: 13px;
+            font-weight: 700;
+            color: #252B42;
+            margin-bottom: 18px;
+        }
+        
+        .SRA-seccion4 a, 
+        .SRA-seccion4 p {
+            display: block;
+            font-size: 12px;
+            font-weight: 400;
+            color: #737373;
+            text-decoration: none;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        
+        .SRA-seccion4 a:hover {
+            color: #A9D162;
+        }
+
+
