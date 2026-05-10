@@ -104,6 +104,50 @@ button{
     padding: 5px 15px;
     background-color: var(--color-principal);
 }
+/*seccion4 Silvia Rosa Alavarado*/
+.SRA-seccion4{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff;
+        }
+
+        .SRA-seccion4 {
+            border-top: 1px solid #E9E9E9;
+            padding: 45px 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .SRA-seccion4 .columna {
+            width: 19%;
+        }
+        
+        .SRA-seccion4 h3 {
+            font-size: 13px;
+            font-weight: 700;
+            color: #252B42;
+            margin-bottom: 18px;
+        }
+        
+        .SRA-seccion4 a, 
+        .SRA-seccion4 p {
+            display: block;
+            font-size: 12px;
+            font-weight: 400;
+            color: #737373;
+            text-decoration: none;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        
+        .SRA-seccion4 a:hover {
+            color: #A9D162;
+        }
 
 
 
